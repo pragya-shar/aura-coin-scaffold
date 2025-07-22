@@ -1,5 +1,5 @@
 #![no_std]
 #![allow(dead_code)]
 
-mod contract;
+pub mod contract;
 mod test;

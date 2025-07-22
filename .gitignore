@@ -1,0 +1,75 @@
+# Rust build artifacts
+target/
+**/target/
+
+# Build artifacts
+*.wasm
+*.dylib
+*.so
+*.dll
+*.exe
+*.o
+*.a
+*.rlib
+*.rmeta
+*.d
+
+# Stellar development files (contains sensitive seed phrases)
+.stellar/
+.stellar/identity/
+.stellar/network/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js (if using any JS tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Security and sensitive files
+*.key
+*.pem
+*secret*
+*private*
+seed_phrase*
+secret_key*
+private_key*
+
+# Soroban specific
+soroban.tar.gz

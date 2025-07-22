@@ -71,12 +71,12 @@ impl Pausable for AuraCoin {
     }
 
     #[only_owner]
-    fn pause(e: &Env, caller: Address) {
+    fn pause(e: &Env, _caller: Address) {
         pausable::pause(e);
     }
 
     #[only_owner]
-    fn unpause(e: &Env, caller: Address) {
+    fn unpause(e: &Env, _caller: Address) {
         pausable::unpause(e);
     }
 }

@@ -1,0 +1,12 @@
+[package]
+name = "aura_coin_demo"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+fungible-contract = { path = "../contracts/fungible" }
+soroban-sdk = { version = "22.0.8", features = ["testutils"] }
+
+[[bin]]
+name = "aura_coin_demo"
+path = "src/main.rs" 

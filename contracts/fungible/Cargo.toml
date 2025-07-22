@@ -9,6 +9,8 @@ version.workspace = true
 crate-type = ["cdylib"]
 doctest = false
 
+
+
 [dependencies]
 stellar-default-impl-macro = { workspace = true }
 stellar-fungible = { workspace = true }
